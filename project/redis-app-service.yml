@@ -7,7 +7,7 @@ metadata:
     author: intelliqit
 spec:
   type: ClusterIP
-  port:
+  ports:
     - targetPort: 6379
       port: 6379
   selector:
